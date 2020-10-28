@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="demo-big-content">
       <Layout>
-        <Header className='header-color' title="Title" scroll>
+        <Header className='header-color' title="Wilson Ruan" scroll>
           <Navigation>
             <Link to="/resume">Resume</Link>
             <Link to="/aboutme">About Me</Link>

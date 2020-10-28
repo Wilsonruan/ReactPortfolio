@@ -9,3 +9,22 @@
   position: fixed;
   width: 100%;
 }
+
+.project-grid {
+  display: flex;
+}
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+}
