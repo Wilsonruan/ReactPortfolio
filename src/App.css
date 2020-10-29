@@ -12,6 +12,14 @@
 
 .project-grid {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-card {
+  width: '320px';
+  height: '320px';
+  margin: 'auto';
 }
 
 .contact-body {
