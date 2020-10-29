@@ -5,6 +5,7 @@
 }
 
 .landing-grid {
+  justify-content: center;
   text-align: center;
   position: fixed;
   width: 100%;

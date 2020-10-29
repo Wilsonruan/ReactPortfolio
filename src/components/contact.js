@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Cell, Grid, List, ListItem, ListItemContent } from 'react-mdl';
+import { Cell, Grid, List, ListItem, ListItemContent, ListItemAction, Icon } from 'react-mdl';
+import Wilson from './Wilson-Ruan.jpg'
 
 class Contact extends Component {
   render() {
@@ -8,12 +9,12 @@ class Contact extends Component {
         <Grid className='contact-grid'>
           <Cell col={6}>
             <h2>Wilson Ruan</h2>
-            <img src='https://i.redd.it/hww8g804tp8z.jpg' alt='avatar' height='250px' />
+            <img src={Wilson} alt='avatar' />
           </Cell>
           <Cell col={6}>
             <h2>Contact Me</h2>
             <hr />
-            <List>
+            {/* <List>
               <ListItem>
                 <ListItemContent icon="phone-square">(647)828-0111</ListItemContent>
               </ListItem>
@@ -24,7 +25,29 @@ class Contact extends Component {
                 <ListItemContent icon="linkin">Linkin</ListItemContent>
               </ListItem>
               <ListItem>
-                <ListItemContent icon="github">GitHub</ListItemContent>
+                <ListItemContent><i class="fa fa-github"></i>GitHub</ListItemContent>
+              </ListItem>
+            </List> */}
+            <List>
+              <ListItem>
+                <ListItemContent>(647)828-0111</ListItemContent>
+              </ListItem>
+              <ListItem>
+                <ListItemContent>wilsonruan@gmail.com</ListItemContent>
+              </ListItem>
+              <ListItem>
+              <ListItemContent>Linkin</ListItemContent>
+                <ListItemAction>
+                  <a href="https://www.linkedin.com/in/wilson-ruan-874069139/"><Icon name="linkin" /></a>
+                </ListItemAction>
+                
+              </ListItem>
+              <ListItem>
+              <ListItemContent>GitHub</ListItemContent>
+                <ListItemAction>
+                  <a href="https://github.com/Wilsonruan"><Icon name="linkin" /></a>
+                </ListItemAction>
+                
               </ListItem>
             </List>
           </Cell>
