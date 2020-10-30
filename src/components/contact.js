@@ -14,38 +14,24 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Contact Me</h2>
             <hr />
-            {/* <List>
-              <ListItem>
-                <ListItemContent icon="phone-square">(647)828-0111</ListItemContent>
-              </ListItem>
-              <ListItem>
-                <ListItemContent icon="mail">wilsonruan@gmail.com</ListItemContent>
-              </ListItem>
-              <ListItem>
-                <ListItemContent icon="linkin">Linkin</ListItemContent>
-              </ListItem>
-              <ListItem>
-                <ListItemContent><i class="fa fa-github"></i>GitHub</ListItemContent>
-              </ListItem>
-            </List> */}
             <List>
               <ListItem>
-                <ListItemContent>(647)828-0111</ListItemContent>
+                <ListItemContent>Contact Number: (647)828-0111</ListItemContent>
               </ListItem>
               <ListItem>
-                <ListItemContent>wilsonruan@gmail.com</ListItemContent>
+                <ListItemContent>Email: wilsonruan@gmail.com</ListItemContent>
               </ListItem>
               <ListItem>
               <ListItemContent>Linkin</ListItemContent>
                 <ListItemAction>
-                  <a href="https://www.linkedin.com/in/wilson-ruan-874069139/"><Icon name="linkin" /></a>
+                  <a href="https://www.linkedin.com/in/wilson-ruan-874069139/" target="_blank" rel="noreferrer"><Icon name="linkin" /></a>
                 </ListItemAction>
                 
               </ListItem>
               <ListItem>
               <ListItemContent>GitHub</ListItemContent>
                 <ListItemAction>
-                  <a href="https://github.com/Wilsonruan"><Icon name="linkin" /></a>
+                  <a href="https://github.com/Wilsonruan" target="_blank" rel="noreferrer"><Icon name="linkin" /></a>
                 </ListItemAction>
                 
               </ListItem>
