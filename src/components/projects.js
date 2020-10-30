@@ -8,10 +8,6 @@ import PasswordGenerator from './Password-Generator.jpg'
 import WeatherDashboard from './Weather-Dashboard.jpg'
 
 class Project extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { activeTab: 0 };
-  }
 
   render() {
     return (
@@ -20,8 +16,8 @@ class Project extends Component {
           <Cell col={12}>
             <div className='content'>
               <div className='project-grid'>
-                <Card shadow={0} style={{ width: '320px', height: '320px', margin: '75px' }}>
-                  <CardTitle expand style={{ color: '#fff', background: `url(${RocketShooter}) no-repeat`, backgroundSize: '320px 225px' }}></CardTitle>
+                <Card shadow={0} style={{ width: '320px', height: '320px', margin: '75px', border: "5px solid black" }}>
+                  <CardTitle expand style={{ color: '#fff', background: `url(${RocketShooter}) no-repeat`, backgroundSize: '320px 225px', borderBottom: "5px solid black"}}></CardTitle>
                   <CardText>
                     Rocket Shooter
                 </CardText>
@@ -30,8 +26,8 @@ class Project extends Component {
                     <Button href='https://scratch.mit.edu/projects/366012034' target="_blank"> WEBSITE</Button>
                   </CardActions>
                 </Card>
-                <Card shadow={0} style={{ width: '320px', height: '320px', margin: '75px' }}>
-                  <CardTitle expand style={{ color: '#fff', background: `url(${WeatherDashboard}) no-repeat`, backgroundSize: '320px 225px' }}></CardTitle>
+                <Card shadow={0} style={{ width: '320px', height: '320px', margin: '75px', border: "5px solid black" }}>
+                  <CardTitle expand style={{ color: '#fff', background: `url(${WeatherDashboard}) no-repeat`, backgroundSize: '320px 225px', borderBottom: "5px solid black" }}></CardTitle>
                   <CardText>
                     Weather Dashboard
                 </CardText>
@@ -40,8 +36,8 @@ class Project extends Component {
                     <Button href='https://wilsonruan.github.io/6-Weather-Dashboard/' target="_blank"> WEBSITE</Button>
                   </CardActions>
                 </Card>
-                <Card shadow={0} style={{ width: '320px', height: '320px', margin: '75px' }}>
-                  <CardTitle expand style={{ color: '#fff', background: `url(${PasswordGenerator}) no-repeat`, backgroundSize: '320px 225px' }}></CardTitle>
+                <Card shadow={0} style={{ width: '320px', height: '320px', margin: '75px', border: "5px solid black" }}>
+                  <CardTitle expand style={{ color: '#fff', background: `url(${PasswordGenerator}) no-repeat`, backgroundSize: '320px 225px', borderBottom: "5px solid black" }}></CardTitle>
                   <CardText>
                     Password Generator
                 </CardText>
@@ -51,8 +47,8 @@ class Project extends Component {
                   </CardActions>
                 </Card>
                 <hr></hr>
-                <Card shadow={0} style={{ width: '320px', height: '320px', margin: '75px' }}>
-                  <CardTitle expand style={{ color: '#fff', background: `url(${FlightSearch}) no-repeat`, backgroundSize: '320px 225px' }}></CardTitle>
+                <Card shadow={0} style={{ width: '320px', height: '320px', margin: '75px', border: "5px solid black" }}>
+                  <CardTitle expand style={{ color: '#fff', background: `url(${FlightSearch}) no-repeat`, backgroundSize: '320px 225px', borderBottom: "5px solid black" }}></CardTitle>
                   <CardText>
                     Flight Search
                 </CardText>
@@ -61,8 +57,8 @@ class Project extends Component {
                     <Button href='https://wilsonruan.github.io/Flight-Search/' target="_blank"> WEBSITE</Button>
                   </CardActions>
                 </Card>
-                <Card shadow={0} style={{ width: '320px', height: '320px', margin: '75px' }}>
-                  <CardTitle expand style={{ color: '#fff', background: `url(${DayPlanner}) no-repeat`, backgroundSize: '320px 225px' }}></CardTitle>
+                <Card shadow={0} style={{ width: '320px', height: '320px', margin: '75px', border: "5px solid black" }}>
+                  <CardTitle expand style={{ color: '#fff', background: `url(${DayPlanner}) no-repeat`, backgroundSize: '320px 225px', borderBottom: "5px solid black" }}></CardTitle>
                   <CardText>
                     Day Planner
                 </CardText>
@@ -71,8 +67,8 @@ class Project extends Component {
                     <Button href='https://wilsonruan.github.io/5-Day-Planner/' target="_blank"> WEBSITE</Button>
                   </CardActions>
                 </Card>
-                <Card shadow={0} style={{ width: '320px', height: '320px', margin: '75px' }}>
-                  <CardTitle expand style={{ color: '#fff', background: `url(${CodeQuiz}) no-repeat`, backgroundSize: '320px 225px' }}></CardTitle>
+                <Card shadow={0} style={{ width: '320px', height: '320px', margin: '75px', border: "5px solid black" }}>
+                  <CardTitle expand style={{ color: '#fff', background: `url(${CodeQuiz}) no-repeat`, backgroundSize: '320px 225px', borderBottom: "5px solid black" }}></CardTitle>
                   <CardText>
                     Code Quiz
                 </CardText>

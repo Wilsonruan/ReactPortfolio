@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="demo-big-content">
+    <div>
       <Layout>
         <Header className='header-color' title="Wilson Ruan" scroll>
           <Navigation>
