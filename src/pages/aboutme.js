@@ -6,11 +6,12 @@ import project from "../projects.json"
 
 class aboutme extends Component {
   render() {
+    const fourProjects = project.splice(0, 4)
     return (
       <div>
         <Container style={{ marginTop: "100px", padding: '35px' }}>
           <Row className='float-right' style={{ display: 'flex', flexWrap: 'wrap', flexDirection: 'column' }}>
-            {project.map((value) => (
+            {fourProjects.map((value) => (
               <Col >
                 <Card style={{ width: "284px", padding: "10px 10px 20px 10px", border: "1px solid #BFBFBF", backgroundColor: "white", boxShadow: "10px 10px 5px #aaaaaa", transform: value.rotate }}>
                   <Card.Img src={value.image} alt="Pulpit rock" height="213" />
