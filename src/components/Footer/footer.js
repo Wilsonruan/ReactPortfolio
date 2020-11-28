@@ -7,7 +7,7 @@ export default function footer() {
     <Navbar id="footer">
       <Container >
         <Card.Footer>
-          <Card.Text id="copyright" className="text-muted">&#9400; 2020 Wilson Ruan</Card.Text>
+          <Card.Text className="text-muted">&#9400; 2020 Wilson Ruan</Card.Text>
         </Card.Footer>
       </Container>
     </Navbar>

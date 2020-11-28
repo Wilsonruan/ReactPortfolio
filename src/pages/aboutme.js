@@ -38,20 +38,6 @@ const project = [
     github: "https://wilsonruan.github.io/3-Password-Generator",
     website: "https://github.com/Wilsonruan/3-Password-Generator",
     rotate: "rotate(-7deg)"
-  },
-  {
-    name: "Weather Dashboard",
-    image: WeatherDashboard,
-    github: "https://wilsonruan.github.io/6-Weather-Dashboard",
-    website: "https://github.com/Wilsonruan/6-Weather-Dashboard",
-    rotate: "rotate(7deg)"
-  },
-  {
-    name: "Flight Search",
-    image: FlightSearch,
-    github: "https://wilsonruan.github.io/Flight-Search",
-    website: "https://github.com/Wilsonruan/Flight-Search",
-    rotate: "rotate(-7deg)"
   }
 ]
 
