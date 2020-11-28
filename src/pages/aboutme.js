@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Card, Row, Col, Alert, Figure } from "react-bootstrap";
+import { Container, Card, Row, Col } from "react-bootstrap";
 import "./aboutme.css";
 import CodeQuiz from "./images/Code-Quiz.jpg"
 import DayPlanner from "./images/Day-Planner.jpg"
@@ -7,7 +7,8 @@ import RocketShooter from "./images/Rocket-Shooter.jpg"
 import PasswordGenerator from "./images/Password-Generator.jpg"
 import WeatherDashboard from "./images/Weather-Dashboard.jpg"
 import FlightSearch from "./images/Flight-Search.png"
-import Wilson from "./Wilson-Ruan.jpg"
+import Contact from './contact'
+
 
 const project = [
   {
@@ -76,6 +77,8 @@ class aboutme extends Component {
               <p className="paragraphText">My background stems from a unique combination of creative and coding. After graduating from the BootStrap Coding in 2020, I discovered my newfound love for web development.</p>
               <p className="paragraphText">I can honestly say I've never enjoyed learn more than I did while taking this course. As someone whose life has been surround by computers and technology, I fell in love with coding immediately.</p>
               <p className="paragraphText">I specialize in front end development with React JS and Javascript, but I also have experience developing full-stack MERN applications. However, I'm constantly dabbling with new innovative technologies in the programming world.</p>
+              <hr/>
+              <Contact />
             </Col>
           </Row>
         </Container>
