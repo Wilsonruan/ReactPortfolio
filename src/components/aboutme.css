@@ -1,0 +1,33 @@
+body {
+  margin: 30px;
+  background-color: #E9E9E9;
+}
+
+#polaroid {
+  width: 284px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+#rotate_right {
+  float: left;
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Safari */
+  transform: rotate(7deg);
+}
+
+#rotate_left {
+  float: left;
+  -ms-transform: rotate(-8deg); /* IE 9 */
+  -webkit-transform: rotate(-8deg); /* Safari */
+  transform: rotate(-8deg);
+}
+
+.paragraphText {
+  font-size: 1.125rem;
+  line-height: 1.8rem;
+  padding-top: 1.5rem;
+  max-width: 40em;
+}
