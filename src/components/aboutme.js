@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Card, Row, Col } from "react-bootstrap";
+import { Container, Card, Row, Col, Alert, Figure } from "react-bootstrap";
 import "./aboutme.css";
 import CodeQuiz from "./images/Code-Quiz.jpg"
 import DayPlanner from "./images/Day-Planner.jpg"
@@ -7,6 +7,7 @@ import RocketShooter from "./images/Rocket-Shooter.jpg"
 import PasswordGenerator from "./images/Password-Generator.jpg"
 import WeatherDashboard from "./images/Weather-Dashboard.jpg"
 import FlightSearch from "./images/Flight-Search.png"
+import Wilson from "./Wilson-Ruan.jpg"
 
 const project = [
   {
@@ -35,21 +36,21 @@ const project = [
     image: PasswordGenerator,
     github: "https://wilsonruan.github.io/3-Password-Generator",
     website: "https://github.com/Wilsonruan/3-Password-Generator",
-    rotate: "rotate(7deg)"
+    rotate: "rotate(-7deg)"
   },
   {
     name: "Weather Dashboard",
     image: WeatherDashboard,
     github: "https://wilsonruan.github.io/6-Weather-Dashboard",
     website: "https://github.com/Wilsonruan/6-Weather-Dashboard",
-    rotate: "rotate(-7deg)"
+    rotate: "rotate(7deg)"
   },
   {
     name: "Flight Search",
     image: FlightSearch,
     github: "https://wilsonruan.github.io/Flight-Search",
     website: "https://github.com/Wilsonruan/Flight-Search",
-    rotate: "rotate(7deg)"
+    rotate: "rotate(-7deg)"
   }
 ]
 
@@ -58,16 +59,24 @@ class aboutme extends Component {
   render() {
     return (
       <div>
-        <Container style={{ display: 'flex', justifyContent: 'start', flexWrap: 'wrap', padding: "35px" }}>
-          <Row xs={1} md={2}>
+        <Container style={{ padding: '35px' }}>
+          <Row className='float-right' style={{ display: 'flex', flexWrap: 'wrap', flexDirection: 'column' }}>
             {project.map((value) => (
-              <Col>
-                <Card style={{ marginRight: "-250px", width: "284px", padding: "10px 10px 20px 10px", border: "1px solid #BFBFBF", backgroundColor: "white", boxShadow: "10px 10px 5px #aaaaaa", transform: value.rotate }}>
+              <Col >
+                <Card style={{ width: "284px", padding: "10px 10px 20px 10px", border: "1px solid #BFBFBF", backgroundColor: "white", boxShadow: "10px 10px 5px #aaaaaa", transform: value.rotate }}>
                   <Card.Img src={value.image} alt="Pulpit rock" height="213" />
                   <Card.Text class="caption">{value.name}</Card.Text>
                 </Card>
               </Col>
             ))}
+          </Row>
+          <Row className='float-left' style={{ display: 'flex', flexWrap: 'wrap', flexDirection: 'column' }}>
+            <Col >
+              <h1>Who Am I?</h1>
+              <p className="paragraphText">My background stems from a unique combination of creative and coding. After graduating from the BootStrap Coding in 2020, I discovered my newfound love for web development.</p>
+              <p className="paragraphText">I can honestly say I've never enjoyed learn more than I did while taking this course. As someone whose life has been surround by computers and technology, I fell in love with coding immediately.</p>
+              <p className="paragraphText">I specialize in front end development with React JS and Javascript, but I also have experience developing full-stack MERN applications. However, I'm constantly dabbling with new innovative technologies in the programming world.</p>
+            </Col>
           </Row>
         </Container>
       </div>

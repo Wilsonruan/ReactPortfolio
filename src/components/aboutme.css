@@ -24,3 +24,10 @@ body {
   -webkit-transform: rotate(-8deg); /* Safari */
   transform: rotate(-8deg);
 }
+
+.paragraphText {
+  font-size: 1.125rem;
+  line-height: 1.8rem;
+  padding-top: 1.5rem;
+  max-width: 40em;
+}
