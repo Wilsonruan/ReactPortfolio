@@ -1,52 +1,14 @@
 import React, { Component } from 'react';
 import { Container, Card, Row, Col } from "react-bootstrap";
 import "./aboutme.css";
-import CodeQuiz from "../images/Code-Quiz.jpg"
-import DayPlanner from "../images/Day-Planner.jpg"
-import RocketShooter from "../images/Rocket-Shooter.jpg"
-import PasswordGenerator from "../images/Password-Generator.jpg"
-import WeatherDashboard from "../images/Weather-Dashboard.jpg"
-import FlightSearch from "../images/Flight-Search.png"
 import Contact from '../context/contact'
-
-
-const project = [
-  {
-    name: "Code Quiz",
-    image: CodeQuiz,
-    github: "https://github.com/Wilsonruan/4-Code-Quiz",
-    website: "https://wilsonruan.github.io/4-Code-Quiz",
-    rotate: "rotate(7deg)"
-  },
-  {
-    name: "Day Planner",
-    image: DayPlanner,
-    github: "https://github.com/Wilsonruan/5-Day-Planner",
-    website: "https://wilsonruan.github.io/5-Day-Planner",
-    rotate: "rotate(-7deg)"
-  },
-  {
-    name: "Rocket Shooter",
-    image: RocketShooter,
-    github: "https://scratch.mit.edu/projects/366012034",
-    website: "https://scratch.mit.edu/projects/366012034",
-    rotate: "rotate(7deg)"
-  },
-  {
-    name: "Password Generator",
-    image: PasswordGenerator,
-    github: "https://wilsonruan.github.io/3-Password-Generator",
-    website: "https://github.com/Wilsonruan/3-Password-Generator",
-    rotate: "rotate(-7deg)"
-  }
-]
-
+import project from "../projects.json"
 
 class aboutme extends Component {
   render() {
     return (
       <div>
-        <Container style={{ padding: '35px' }}>
+        <Container style={{ marginTop: "100px", padding: '35px' }}>
           <Row className='float-right' style={{ display: 'flex', flexWrap: 'wrap', flexDirection: 'column' }}>
             {project.map((value) => (
               <Col >

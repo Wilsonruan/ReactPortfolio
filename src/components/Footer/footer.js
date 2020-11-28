@@ -4,11 +4,9 @@ import "./footer.css"
 
 export default function footer() {
   return (
-    <Navbar id="footer">
+    <Navbar fixed="bottom" id="footer">
       <Container >
-        <Card.Footer>
           <Card.Text className="text-muted">&#9400; 2020 Wilson Ruan</Card.Text>
-        </Card.Footer>
       </Container>
     </Navbar>
   )
