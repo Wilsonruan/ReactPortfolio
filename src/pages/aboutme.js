@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Container, Card, Row, Col } from "react-bootstrap";
 import "./aboutme.css";
-import CodeQuiz from "./images/Code-Quiz.jpg"
-import DayPlanner from "./images/Day-Planner.jpg"
-import RocketShooter from "./images/Rocket-Shooter.jpg"
-import PasswordGenerator from "./images/Password-Generator.jpg"
-import WeatherDashboard from "./images/Weather-Dashboard.jpg"
-import FlightSearch from "./images/Flight-Search.png"
-import Contact from './contact'
+import CodeQuiz from "../images/Code-Quiz.jpg"
+import DayPlanner from "../images/Day-Planner.jpg"
+import RocketShooter from "../images/Rocket-Shooter.jpg"
+import PasswordGenerator from "../images/Password-Generator.jpg"
+import WeatherDashboard from "../images/Weather-Dashboard.jpg"
+import FlightSearch from "../images/Flight-Search.png"
+import Contact from '../context/contact'
 
 
 const project = [

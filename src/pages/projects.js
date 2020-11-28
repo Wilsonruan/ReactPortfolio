@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Card, Container } from "react-bootstrap";
-import CodeQuiz from "./images/Code-Quiz.jpg"
-import DayPlanner from "./images/Day-Planner.jpg"
-import RocketShooter from "./images/Rocket-Shooter.jpg"
-import PasswordGenerator from "./images/Password-Generator.jpg"
-import WeatherDashboard from "./images/Weather-Dashboard.jpg"
-import FlightSearch from "./images/Flight-Search.png"
+import CodeQuiz from "../images/Code-Quiz.jpg"
+import DayPlanner from "../images/Day-Planner.jpg"
+import RocketShooter from "../images/Rocket-Shooter.jpg"
+import PasswordGenerator from "../images/Password-Generator.jpg"
+import WeatherDashboard from "../images/Weather-Dashboard.jpg"
+import FlightSearch from "../images/Flight-Search.png"
 
 const project = [
   {
@@ -58,7 +58,7 @@ class projects extends Component {
       <div>
         <Container style={{ display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap' }}>
           {project.map((value) => (
-            <Card style={{ width: '18rem', marginTop: '100px' }}>
+            <Card style={{ width: '18rem', marginBottom: '100px' }}>
               <Card.Body>
                 <Card.Img style={{ height: '12rem', boxShadow: '5px 10px 18px #888888' }} variant="top" alt="Code Quiz" src={value.image} />
               </Card.Body>
