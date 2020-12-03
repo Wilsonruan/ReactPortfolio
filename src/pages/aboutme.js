@@ -6,7 +6,7 @@ import project from "../projects.json"
 
 class aboutme extends Component {
   render() {
-    const fourProjects = project.splice(0, 4)
+    const fourProjects = project.splice(0, 3)
     return (
       <div>
         <Container style={{ marginTop: "100px", padding: '35px' }}>

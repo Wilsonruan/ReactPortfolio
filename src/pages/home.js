@@ -11,7 +11,7 @@ class home extends Component {
           <Alert>
           <Figure.Image style={{ margin: "35px" }} width={250} height={250} alt="Wilson Ruan" src={Wilson} className="float-right" rounded />
             <h1>Hello there,</h1>
-            <p className="paragraphText">I am a Full Stack Developer with a passion of creative ideas, visually engaging, and fully responsive applications. Programming allows me to engage both the creative and logical sides of my brain, and I love the satisfying feeling of bringing new ideas to coding.</p>
+            <p className="paragraphText">I am a Full Stack Developer with a passion for new ideas, visually engaging, and fully responsive website. Programming allows me to engage both the creative and logical sides of my brain, and I love the feeling of bringing new ideas to coding.</p>
             <p className="paragraphText">My skills include JavaScript, ES6, jQuery, React/React Hooks, Redux, React Native, Node, Express, MySQL, Sequelize.js MongoDB, Mongoose.js, REST APIs, HTML5, Handlebars, CSS3, Bootstrap, Material UI, Git, and GitHub.</p>
             <p className="paragraphText">I am constantly learning new techniques and collaborating with other developers to become a better Full Stack Developer.</p>
             <hr />
