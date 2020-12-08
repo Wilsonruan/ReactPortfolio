@@ -21,6 +21,7 @@ class projects extends Component {
           <Project  
             image={value.image}
             name={value.name}
+            description={value.description}
             github={value.github}
             website={value.website}
           />

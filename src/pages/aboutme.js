@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Card, Row, Col } from "react-bootstrap";
 import "./aboutme.css";
-import Contact from '../context/contact'
+import Contact from '../contact/contact'
 import project from "../projects.json"
 
 class aboutme extends Component {

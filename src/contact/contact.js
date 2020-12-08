@@ -21,7 +21,7 @@ export default class MyForm extends React.Component {
       >
         <Form.Group controlId="exampleForm.ControlInput1">
           <Form.Label>Name</Form.Label>
-          <Form.Control type="text" name="name" placeholder="Wilson Ruan" />
+          <Form.Control type="text" name="name" placeholder="Your Name" />
         </Form.Group>
         <Form.Group controlId="exampleForm.ControlInput1">
           <Form.Label>Email address</Form.Label>
