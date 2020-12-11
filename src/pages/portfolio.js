@@ -2,7 +2,12 @@ import React, { Component } from 'react';
 import { Container } from "react-bootstrap";
 import Project from "../components/Projects/projects"
 import project from "../projects.json"
-
+import Budget from "../images/Budget-Trackers.jpg"
+import Employee from "../images/Employee-Directory.jpg"
+import RocketShooter from "../images/Code-Quiz.jpg"
+import ShopSmart from "../images/ShopSmartSS.png"
+import Google from "../images/Google-Books.jpg"
+import FlightSearch from "../images/Flight-Search.png"
 
 class projects extends Component {
   state = {

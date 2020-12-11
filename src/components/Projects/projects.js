@@ -2,7 +2,6 @@ import React from 'react'
 import { Card } from "react-bootstrap";
 
 export default function projects({image, name, github, website, technologies, description}) {
-  console.log(image)
   return (
       <Card style={{ width: '18rem', marginBottom: '100px' }}>
         <Card.Body>

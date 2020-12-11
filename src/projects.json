@@ -1,5 +1,23 @@
 [
   {
+    "name": "Google Book Search",
+    "technologies": "MongoDB, Express, React, Node",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "image": "/static/media/Google-Books.8c141f64.jpg",
+    "github": "https://github.com/Wilsonruan/GoogleBooks",
+    "website": "https://github.com/Wilsonruan/GoogleBooks",
+    "rotate": "rotate(7deg)"
+  },
+  {
+    "name": "Employee Directory",
+    "technologies": "React.JS, Node, Material UI",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "image": "/static/media/Employee-Directory.3f42de88.jpg",
+    "github": "https://github.com/Wilsonruan/Employee-Directory",
+    "website": "https://wilsonruan.github.io/Employee-Directory/",
+    "rotate": "rotate(-7deg)"
+  },
+  {
     "name": "Code Quiz",
     "technologies": "Javascript, jQuery, HTML",
     "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
@@ -9,44 +27,26 @@
     "rotate": "rotate(7deg)"
   },
   {
-    "name": "Day Planner",
-    "technologies": "Javascript, jQuery, API",
+    "name": "Shop Smart",
+    "technologies": "MERN, MVC framework, Firebase",
     "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "image": "/static/media/Day-Planner.59b2983a.jpg",
-    "github": "https://github.com/Wilsonruan/5-Day-Planner",
-    "website": "https://wilsonruan.github.io/5-Day-Planner",
+    "image": "/static/media/ShopSmartSS.a92d6e6a.png",
+    "github": "https://github.com/Faduma92/ShopSmart",
+    "website": "https://glacial-garden-86471.herokuapp.com/",
     "rotate": "rotate(-7deg)"
   },
   {
-    "name": "Rocket Shooter",
-    "technologies": "Scratch",
+    "name": "Budget Tracker",
+    "technologies": "MongoDB, Express.js, Node.js",
     "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "image": "/static/media/Rocket-Shooter.20e5571b.jpg",
-    "github": "https://scratch.mit.edu/projects/366012034",
-    "website": "https://scratch.mit.edu/projects/366012034",
-    "rotate": "rotate(7deg)"
-  },
-  {
-    "name": "Password Generator",
-    "technologies": "HTML, CSS, Javscript",
-    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "image": "/static/media/Password-Generator.6d7a2025.jpg",
-    "github": "https://wilsonruan.github.io/3-Password-Generator",
-    "website": "https://github.com/Wilsonruan/3-Password-Generator",
-    "rotate": "rotate(-7deg)"
-  },
-  {
-    "name": "Weather Dashboard",
-    "technologies": "Bootstrap, Javascript, API",
-    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "image": "/static/media/Weather-Dashboard.d70c1712.jpg",
-    "github": "https://wilsonruan.github.io/6-Weather-Dashboard",
-    "website": "https://github.com/Wilsonruan/6-Weather-Dashboard",
+    "image": "/static/media/Budget-Trackers.c971c874.jpg",
+    "github": "https://github.com/Wilsonruan/Budget-Trackers",
+    "website": "https://powerful-escarpment-11883.herokuapp.com/",
     "rotate": "rotate(7deg)"
   },
   {
     "name": "Flight Search",
-    "technologies": "Bootstrap, Javascript, Jquery, API",
+    "technologies": "Bootstrap, Javascript, jQuery, API",
     "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
     "image": "/static/media/Flight-Search.364afaa7.png",
     "github": "https://wilsonruan.github.io/Flight-Search",
