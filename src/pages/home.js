@@ -15,7 +15,7 @@ class home extends Component {
             <p className="paragraphText">My skills include JavaScript, ES6, jQuery, React/React Hooks, Redux, React Native, Node, Express, MySQL, Sequelize.js MongoDB, Mongoose.js, REST APIs, HTML5, Handlebars, CSS3, Bootstrap, Material UI, Git, and GitHub.</p>
             <p className="paragraphText">I am constantly learning new techniques and collaborating with other developers to become a better Full Stack Developer.</p>
             <hr />
-            <a href="https://drive.google.com/file/d/1RTGhtVr1cGEi1Ku8t9dG9lptUcOKfEWU/view?usp=sharing" target="_blank" rel="noreferrer">Click here to view my Resume</a>
+            <a href="https://drive.google.com/file/d/197RK4KqoGBqjp0ypGt3cPX-lBromFwWn/view?usp=sharing" target="_blank" rel="noreferrer">Click here to view my Resume</a>
             <a className="float-right" href="mailto:wilsonruan23@gmail.com" target="_blank" rel="noreferrer">Email: wilsonruan23@gmail.com</a>
           </Alert>
         </Container>

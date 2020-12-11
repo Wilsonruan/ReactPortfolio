@@ -1,7 +1,8 @@
 [
   {
     "name": "Code Quiz",
-    "description": "Javascript, jQuery, HTML",
+    "technologies": "Javascript, jQuery, HTML",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
     "image": "/static/media/Code-Quiz.05443faa.jpg",
     "github": "https://github.com/Wilsonruan/4-Code-Quiz",
     "website": "https://wilsonruan.github.io/4-Code-Quiz",
@@ -9,7 +10,8 @@
   },
   {
     "name": "Day Planner",
-    "description": "Javascript, jQuery, API",
+    "technologies": "Javascript, jQuery, API",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
     "image": "/static/media/Day-Planner.59b2983a.jpg",
     "github": "https://github.com/Wilsonruan/5-Day-Planner",
     "website": "https://wilsonruan.github.io/5-Day-Planner",
@@ -17,7 +19,8 @@
   },
   {
     "name": "Rocket Shooter",
-    "description": "Scratch",
+    "technologies": "Scratch",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
     "image": "/static/media/Rocket-Shooter.20e5571b.jpg",
     "github": "https://scratch.mit.edu/projects/366012034",
     "website": "https://scratch.mit.edu/projects/366012034",
@@ -25,7 +28,8 @@
   },
   {
     "name": "Password Generator",
-    "description": "HTML, CSS, Javscript",
+    "technologies": "HTML, CSS, Javscript",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
     "image": "/static/media/Password-Generator.6d7a2025.jpg",
     "github": "https://wilsonruan.github.io/3-Password-Generator",
     "website": "https://github.com/Wilsonruan/3-Password-Generator",
@@ -33,7 +37,8 @@
   },
   {
     "name": "Weather Dashboard",
-    "description": "Bootstrap, Javascript, API",
+    "technologies": "Bootstrap, Javascript, API",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
     "image": "/static/media/Weather-Dashboard.d70c1712.jpg",
     "github": "https://wilsonruan.github.io/6-Weather-Dashboard",
     "website": "https://github.com/Wilsonruan/6-Weather-Dashboard",
@@ -41,7 +46,8 @@
   },
   {
     "name": "Flight Search",
-    "description": "Bootstrap, Javascript, Jquery, API",
+    "technologies": "Bootstrap, Javascript, Jquery, API",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
     "image": "/static/media/Flight-Search.364afaa7.png",
     "github": "https://wilsonruan.github.io/Flight-Search",
     "website": "https://github.com/Wilsonruan/Flight-Search",
