@@ -2,7 +2,7 @@
   {
     "name": "Google Book Search",
     "technologies": "MongoDB, Express, React, Node",
-    "description": "Google Books Search lets users search for books and add to the library.",
+    "description": "Google Books Search allows users search for books and add to the library.",
     "image": "/static/media/Google-Books.8c141f64.jpg",
     "github": "https://github.com/Wilsonruan/GoogleBooks",
     "website": "https://mysterious-woodland-50191.herokuapp.com/",
@@ -20,7 +20,7 @@
   {
     "name": "Code Quiz",
     "technologies": "Javascript, jQuery, HTML",
-    "description": "Code Quiz provides 4 different coding quizzes.",
+    "description": "Code Quiz offer 4 different coding quizzes.",
     "image": "/static/media/Code-Quiz.05443faa.jpg",
     "github": "https://github.com/Wilsonruan/4-Code-Quiz",
     "website": "https://wilsonruan.github.io/4-Code-Quiz",
