@@ -27,12 +27,12 @@
     "rotate": "rotate(7deg)"
   },
   {
-    "name": "Shop Smart",
+    "name": "Note Taker",
     "technologies": "MERN, MVC framework, Firebase",
-    "description": "Shop Smart users to login, shop online, and add to cart.",
-    "image": "/static/media/ShopSmartSS.a92d6e6a.png",
-    "github": "https://github.com/Faduma92/ShopSmart",
-    "website": "https://glacial-garden-86471.herokuapp.com/",
+    "description": "Note Taker allows users to input notes and delete it.",
+    "image": "/static/media/Note-Taker.a88bce9a.jpg",
+    "github": "https://github.com/Wilsonruan/Note-Taker",
+    "website": "https://note-taker-heroku-wilson.herokuapp.com/",
     "rotate": "rotate(-7deg)"
   },
   {
