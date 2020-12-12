@@ -2,7 +2,7 @@
   {
     "name": "Google Book Search",
     "technologies": "MongoDB, Express, React, Node",
-    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "description": "Google Books Search lets users search for books and add to the library.",
     "image": "/static/media/Google-Books.8c141f64.jpg",
     "github": "https://github.com/Wilsonruan/GoogleBooks",
     "website": "https://mysterious-woodland-50191.herokuapp.com/",
@@ -11,7 +11,7 @@
   {
     "name": "Employee Directory",
     "technologies": "React.JS, Node, Material UI",
-    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "description": "Employee Directory can search for employee names by alphabetical or numerical",
     "image": "/static/media/Employee-Directory.3f42de88.jpg",
     "github": "https://github.com/Wilsonruan/Employee-Directory",
     "website": "https://wilsonruan.github.io/Employee-Directory/",
@@ -20,7 +20,7 @@
   {
     "name": "Code Quiz",
     "technologies": "Javascript, jQuery, HTML",
-    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "description": "Code Quiz provides 4 different coding quizzes.",
     "image": "/static/media/Code-Quiz.05443faa.jpg",
     "github": "https://github.com/Wilsonruan/4-Code-Quiz",
     "website": "https://wilsonruan.github.io/4-Code-Quiz",
@@ -29,7 +29,7 @@
   {
     "name": "Shop Smart",
     "technologies": "MERN, MVC framework, Firebase",
-    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "description": "Shop Smart users to login, shop online, and add to cart.",
     "image": "/static/media/ShopSmartSS.a92d6e6a.png",
     "github": "https://github.com/Faduma92/ShopSmart",
     "website": "https://glacial-garden-86471.herokuapp.com/",
@@ -38,7 +38,7 @@
   {
     "name": "Budget Tracker",
     "technologies": "MongoDB, Express.js, Node.js",
-    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "description": "Budget Tracker allows users to input debit or credit. The total balance will be shown on top.",
     "image": "/static/media/Budget-Trackers.c971c874.jpg",
     "github": "https://github.com/Wilsonruan/Budget-Trackers",
     "website": "https://powerful-escarpment-11883.herokuapp.com/",
@@ -47,7 +47,7 @@
   {
     "name": "Flight Search",
     "technologies": "Bootstrap, Javascript, jQuery, API",
-    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "description": "Flight Search allows users to search for one-way or two-way flights.",
     "image": "/static/media/Flight-Search.364afaa7.png",
     "github": "https://wilsonruan.github.io/Flight-Search",
     "website": "https://github.com/Wilsonruan/Flight-Search",
