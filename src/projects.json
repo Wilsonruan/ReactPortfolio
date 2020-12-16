@@ -28,7 +28,7 @@
   },
   {
     "name": "Note Taker",
-    "technologies": "MERN, MVC framework, Firebase",
+    "technologies": "Express, JavaScript, HTML",
     "description": "Note Taker allows users to input notes and delete it.",
     "image": "/static/media/Note-Taker.caab9183.jpg",
     "github": "https://github.com/Wilsonruan/Note-Taker",
@@ -46,7 +46,7 @@
   },
   {
     "name": "Flight Search",
-    "technologies": "Bootstrap, Javascript, jQuery, API",
+    "technologies": "Bootstrap, jQuery, API",
     "description": "Flight Search allows users to search for one-way or two-way flights.",
     "image": "/static/media/Flight-Search.364afaa7.png",
     "github": "https://wilsonruan.github.io/Flight-Search",
