@@ -1,11 +1,11 @@
 [
   {
-    "name": "Google Book Search",
-    "technologies": "MongoDB, Express, React, Node",
-    "description": "Google Books Search allows users search for books and add to the library.",
-    "image": "/static/media/Google-Books.8c141f64.jpg",
-    "github": "https://github.com/Wilsonruan/GoogleBooks",
-    "website": "https://mysterious-woodland-50191.herokuapp.com/",
+    "name": "Workout Tracker",
+    "technologies": "MongoDB, Node, Express",
+    "description": "Workout Tracker allow user to keep track of their workout.",
+    "image": "/static/media/Workout-Tracker.de135825.jpg",
+    "github": "https://github.com/Wilsonruan/Workout-Tracker",
+    "website": "https://shielded-hamlet-66850.herokuapp.com/?id=5f752c5653e8bd0017a79f75",
     "rotate": "rotate(7deg)"
   },
   {
@@ -30,7 +30,7 @@
     "name": "Note Taker",
     "technologies": "MERN, MVC framework, Firebase",
     "description": "Note Taker allows users to input notes and delete it.",
-    "image": "/static/media/Note-Taker.a88bce9a.jpg",
+    "image": "/static/media/Note-Taker.caab9183.jpg",
     "github": "https://github.com/Wilsonruan/Note-Taker",
     "website": "https://note-taker-heroku-wilson.herokuapp.com/",
     "rotate": "rotate(-7deg)"
