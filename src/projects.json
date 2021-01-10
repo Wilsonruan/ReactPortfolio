@@ -1,11 +1,11 @@
 [
   {
-    "name": "Workout Tracker",
-    "technologies": "MongoDB, Node, Express",
-    "description": "Workout Tracker allow user to keep track of their workout.",
-    "image": "/static/media/Workout-Tracker.de135825.jpg",
-    "github": "https://github.com/Wilsonruan/Workout-Tracker",
-    "website": "https://shielded-hamlet-66850.herokuapp.com/?id=5f752c5653e8bd0017a79f75",
+    "name": "ShopSmart",
+    "technologies": "MongoDB, Express, React, Node",
+    "description": "View and add products into cart. Users can register, sign in and sign out.",
+    "image": "/static/media/ShopSmart.6fe10698.jpg",
+    "github": "github.com/Wilsonruan/ShopSmart2.0",
+    "website": "https://my-shopsmart-app.herokuapp.com/",
     "rotate": "rotate(7deg)"
   },
   {
