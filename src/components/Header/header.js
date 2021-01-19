@@ -10,7 +10,7 @@ export default function header() {
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Breadcrumb.Item className="text-danger" href="/">Home</Breadcrumb.Item>
-          <Breadcrumb.Item href="/aboutme">About Me</Breadcrumb.Item>
+          <Breadcrumb.Item href="/aboutme">About</Breadcrumb.Item>
           <Breadcrumb.Item href="/portfolio">Portfolio</Breadcrumb.Item>
           <Breadcrumb.Item href="https://drive.google.com/file/d/197RK4KqoGBqjp0ypGt3cPX-lBromFwWn/view?usp=sharing" target="_blank">Resume</Breadcrumb.Item>
           <Nav.Link href="https://github.com/Wilsonruan" target="_blank"><i style={{ marginRight: "-15px" }} class="fa fa-github fa-2x" aria-hidden="true"></i></Nav.Link>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Alert, Figure, Container } from "react-bootstrap"; 
+import { Alert, Figure, Container, Col, Row } from "react-bootstrap"; 
 import Wilson from "./Wilson-Ruan.jpg"
 import "./aboutme.css";
 
@@ -15,8 +15,10 @@ class home extends Component {
             <p className="paragraphText">My skills include JavaScript, ES6, jQuery, React/React Hooks, Redux, React Native, Node, Express, MySQL, Sequelize.js MongoDB, Mongoose.js, REST APIs, HTML5, Handlebars, CSS3, Bootstrap, Material UI, Git, and GitHub.</p>
             <p className="paragraphText">I am constantly learning new techniques and collaborating with other developers to become a better Full Stack Developer.</p>
             <hr />
-            <a href="https://drive.google.com/file/d/197RK4KqoGBqjp0ypGt3cPX-lBromFwWn/view?usp=sharing" target="_blank" rel="noreferrer">Click here to view my Resume</a>
-            <a className="float-right" href="mailto:wilsonruan23@gmail.com" target="_blank" rel="noreferrer">Email: wilsonruan23@gmail.com</a>
+            <Row>
+              <Col sm><a href="https://drive.google.com/file/d/197RK4KqoGBqjp0ypGt3cPX-lBromFwWn/view?usp=sharing" target="_blank" rel="noreferrer">Click here to view my Resume</a></Col>
+              <Col sm><a className="float-right" href="mailto:wilsonruan23@gmail.com" target="_blank" rel="noreferrer">Email: wilsonruan23@gmail.com</a></Col>
+            </Row>  
           </Alert>
         </Container>
       </div>

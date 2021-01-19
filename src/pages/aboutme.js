@@ -6,21 +6,12 @@ import project from "../projects.json"
 
 class aboutme extends Component {
   render() {
-    const fourProjects = project.splice(0, 3)
+    const rand = Math.floor(Math.random() * 4)
+    const fourProjects = project.slice(0 + rand, 3 + rand)
     return (
       <div>
-        <Container style={{ marginTop: "100px", padding: '35px' }}>
-          <Row className='float-right' style={{ display: 'flex', flexWrap: 'wrap', flexDirection: 'column' }}>
-            {fourProjects.map((value) => (
-              <Col >
-                <Card style={{ width: "284px", padding: "10px 10px 20px 10px", border: "1px solid #BFBFBF", backgroundColor: "white", boxShadow: "10px 10px 5px #aaaaaa", transform: value.rotate }}>
-                  <Card.Img src={value.image} alt="Pulpit rock" height="213" />
-                  <Card.Text class="caption">{value.name}</Card.Text>
-                </Card>
-              </Col>
-            ))}
-          </Row>
-          <Row className='float-left' style={{ display: 'flex', flexWrap: 'wrap', flexDirection: 'column' }}>
+        <Container style={{ marginTop: "50px", padding: '35px' }}>
+         <Row className='float-left' style={{ display: 'flex', flexWrap: 'wrap', flexDirection: 'column' }}>
             <Col >
               <h1>Who Am I?</h1>
               <p className="paragraphText">My background stems from a unique combination of creative and coding. After graduating from the BootStrap Coding in 2020, I discovered my newfound love for web development.</p>
@@ -29,6 +20,20 @@ class aboutme extends Component {
               <hr/>
               <Contact />
             </Col>
+          </Row>
+          <Row className='float-right' style={{ display: 'flex', flexWrap: 'wrap', flexDirection: 'column' }}>
+            {fourProjects.map((value) => (
+              <Col >
+                <Card style={{ width: "250px", padding: "10px 10px 20px 10px", border: "1px solid #BFBFBF", backgroundColor: "white", boxShadow: "10px 10px 5px #aaaaaa", transform: value.rotate }}>
+                  <div className="overContainer">
+                    <Card.Img className="image" src={value.image} alt="Pulpit rock" height="213" />
+                    <div className="overlay"> 
+                      <Card.Link className="text" href={value.website} target="_blank">{value.name} Website Link</Card.Link>
+                    </div>
+                  </div>
+                </Card>
+              </Col>
+            ))}
           </Row>
         </Container>
       </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Form } from "react-bootstrap";
+import { Container, Form } from "react-bootstrap";
 
 
 export default class MyForm extends React.Component {
@@ -14,7 +14,8 @@ export default class MyForm extends React.Component {
   render() {
     const { status } = this.state;
     return (
-      <Form
+      <Container>
+              <Form
         onSubmit={this.submitForm}
         action="https://formspree.io/f/xdopldgb"
         method="POST"
@@ -34,6 +35,8 @@ export default class MyForm extends React.Component {
         {status === "SUCCESS" ? <p>Thank you for submitting!</p> : <button className="btn btn-primary float-right" >Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </Form>
+      <br />
+      </Container>
     );
   }
 
