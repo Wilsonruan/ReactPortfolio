@@ -1,0 +1,10 @@
+.photo {
+  height: 12rem; 
+  box-shadow: 5px 10px 18px #888888;
+  transform: scale(1);
+  transition: transform .5s;
+}
+
+.photo:hover {
+  transform: scale(1.2);
+}

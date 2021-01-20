@@ -1,11 +1,12 @@
 import React from 'react'
 import { Card } from "react-bootstrap";
+import "./projects.css";
 
 export default function projects({image, name, github, website, technologies, description}) {
   return (
       <Card style={{ width: '18rem', marginBottom: '100px' }}>
         <Card.Body>
-          <Card.Img style={{ height: '12rem', boxShadow: '5px 10px 18px #888888' }} variant="top" alt={name} src={image} />
+          <Card.Img className="photo" style={{ height: '12rem', boxShadow: '5px 10px 18px #888888' }} variant="top" alt={name} src={image} />
         </Card.Body>
           <Card.Title className="text-center">{name}</Card.Title>
           <Card.Subtitle className="text-muted text-center">{technologies}</Card.Subtitle>

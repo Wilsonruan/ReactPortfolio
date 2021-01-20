@@ -1,19 +1,33 @@
+import React, { useState, useEffect } from 'react'
 import './App.css';
 import { Container } from "react-bootstrap";
 import Header from './components/Header/header'
 import Main from './pages/main'
 import Footer from './components/Footer/footer'
+import LoadingScreen from './pages/loading'
 
 
 function App() {
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 6000)
+  }, [])
+  
   return (
-    <div>
-     <Header />
-      <Container>
-        <Main />
-      </Container>
+    <>
+      <Header />
+      {loading === false ? (
+          <div>
+            <Container>
+              <Main />
+            </Container>
+          </div>
+        ) : (
+            <LoadingScreen />
+          )}
       <Footer />
-    </div>
+    </>
   );
 }
 
