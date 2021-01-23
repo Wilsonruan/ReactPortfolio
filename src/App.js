@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 import Header from './components/Header/header'
 import Main from './pages/main'
 import Footer from './components/Footer/footer'
-import LoadingScreen from './pages/loading'
+import LoadingScreen from './loading'
 
 
 function App() {
@@ -17,15 +17,7 @@ function App() {
   return (
     <>
       <Header />
-      {loading === false ? (
-          <div>
-            <Container>
-              <Main />
-            </Container>
-          </div>
-        ) : (
-            <LoadingScreen />
-          )}
+        <LoadingScreen />
       <Footer />
     </>
   );
