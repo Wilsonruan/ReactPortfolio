@@ -11,7 +11,7 @@ class aboutme extends Component {
     return (
       <div>
         <Container style={{ marginTop: "50px", padding: '35px' }}>
-         <Row className='float-left' style={{ display: 'flex', flexWrap: 'wrap', flexDirection: 'column' }}>
+         <Row className='float-left' style={{ background: "white", display: 'flex', flexWrap: 'wrap', flexDirection: 'column', marginBottom: "100px", padding: '35px', boxShadow: '5px 10px 18px #888888'  }}>
             <Col >
               <h1>Who Am I?</h1>
               <p className="paragraphText">My background stems from a unique combination of creative and coding. After graduating from the BootStrap Coding in 2020, I discovered my newfound love for web development.</p>
@@ -23,7 +23,7 @@ class aboutme extends Component {
           </Row>
           <Row className='float-right' style={{ display: 'flex', flexWrap: 'wrap', flexDirection: 'column' }}>
             {fourProjects.map((value) => (
-              <Col >
+              <Col className="d-none d-lg-block">
                 <Card style={{ width: "250px", padding: "10px 10px 20px 10px", border: "1px solid #BFBFBF", backgroundColor: "white", boxShadow: "10px 10px 5px #aaaaaa", transform: value.rotate }}>
                   <div className="overContainer">
                     <Card.Img className="image" src={value.image} alt="Pulpit rock" height="213" />

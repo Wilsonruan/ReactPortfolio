@@ -1,5 +1,7 @@
 body {
-  background-image: url("https://i.pinimg.com/originals/e2/71/fd/e271fda72f1e158b5f0569cc72d36d7f.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2018/08/23/03/53/lego-3625194_1280.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App {

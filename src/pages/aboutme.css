@@ -1,6 +1,7 @@
 body {
   margin: 30px;
-  background-color: #E9E9E9;
+  background-image: url("https://t3.ftcdn.net/jpg/02/66/56/76/360_F_266567677_5ZcfjBF5nsk6UwJqhhmwuZYIB6io1p1w.jpg");
+  background-size: length;
 }
 
 #polaroid {
@@ -46,7 +47,7 @@ body {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color:white;
+  background-image: url("https://i.pinimg.com/originals/e2/71/fd/e271fda72f1e158b5f0569cc72d36d7f.jpg");
 }
 
 .overContainer:hover .overlay {
@@ -64,3 +65,5 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+/* Shadow */

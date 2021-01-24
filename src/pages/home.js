@@ -7,7 +7,7 @@ class home extends Component {
   render() {
     return (
       <div>
-        <Container style={{ marginTop: "50px", padding: "35px" }}>
+        <Container style={{ background: "white", marginTop: "160px", padding: "35px", boxShadow: '5px 10px 18px #888888' }}>
           <Alert>
           <Figure.Image style={{ margin: "35px" }} width={250} height={250} alt="Wilson Ruan" src={Wilson} className="float-right" rounded />
             <h1>Hello there,</h1>

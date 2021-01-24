@@ -4,7 +4,7 @@ import "./projects.css";
 
 export default function projects({image, name, github, website, technologies, description}) {
   return (
-      <Card style={{ width: '18rem', marginBottom: '100px' }}>
+      <Card style={{ width: '18rem', marginBottom: '100px', boxShadow: '5px 10px 18px #888888' }}>
         <Card.Body>
           <Card.Img className="photo" style={{ height: '12rem', boxShadow: '5px 10px 18px #888888' }} variant="top" alt={name} src={image} />
         </Card.Body>
