@@ -6,7 +6,7 @@ import project from "../projects.json"
 
 class aboutme extends Component {
   render() {
-    const rand = Math.floor(Math.random() * 4)
+    const rand = Math.floor(Math.random() * 3)
     const fourProjects = project.slice(0 + rand, 4 + rand)
     return (
       <div>
