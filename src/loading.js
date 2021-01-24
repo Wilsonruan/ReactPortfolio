@@ -36,7 +36,7 @@ export default class Loading extends React.Component {
       <div>
         {!this.state.done ? (
           <FadeIn>
-            <div style={{ textAlign: 'center', marginTop: '300px', fontSize: '48px' }}>
+            <div style={{ textAlign: 'center', marginTop: '300px', fontSize: '48px', marginBottom: '600px'  }}>
               <h1>Fetching Data</h1>
               <Lottie options={defaultOptions} height={120} width={120} />                      
             </div>
