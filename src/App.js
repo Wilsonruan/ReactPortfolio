@@ -11,7 +11,9 @@ function App() {
   return (
     <>
       <Header />
-        <Loading />
+        <Container>
+          <Main />
+        </Container>
       <Footer />
     </>
   );
