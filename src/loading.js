@@ -18,9 +18,7 @@ const defaultOptions = {
 export default class Loading extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      done: undefined
-    };
+    this.state = {isStopped: false, isPaused: false};
   }
 
   componentDidMount() {
@@ -38,7 +36,7 @@ export default class Loading extends React.Component {
           <FadeIn>
             <div style={{ textAlign: 'center', marginTop: '300px', fontSize: '48px', marginBottom: '600px'  }}>
               <h1>Fetching Data</h1>
-              <Lottie options={defaultOptions} height={120} width={120} />                      
+              <Lottie options={defaultOptions} height={120} width={120} isStopped={this.state.isStopped} isPaused={this.state.isPaused}/>                      
             </div>
           </FadeIn>
         ) : (
