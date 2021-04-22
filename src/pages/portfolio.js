@@ -10,7 +10,8 @@ import Google from "../images/Google-Books.jpg"
 import FlightSearch from "../images/Flight-Search.png"
 import NoteTaker from "../images/Note-Taker.jpg"
 import WorkOut from "../images/Workout-Tracker.jpg"
-
+import Scratch from "../components/Scratch/scratch"
+import Instructions from "../components/Instructions/instructions"
 
 class projects extends Component {
   state = {
@@ -30,7 +31,10 @@ class projects extends Component {
             website={value.website}
           />
         ))}
+        <Scratch/>
+        <Instructions/>
       </Container>
+
     )
   }
 }
