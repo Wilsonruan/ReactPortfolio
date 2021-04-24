@@ -16,9 +16,9 @@ export default function instructions() {
       <Card.Body>
         <h6><Card.Img className='float-left' style={{marginRight: '8px', height: '3rem', width: '3rem'}} alt="Movement" src={Movement} />You can move left, right, up and down using the <b>arrow keys</b> and <b>spacebar</b> to shoot lasers.</h6>
         <br></br>
-        <h6><Card.Img className='float-left' style={{marginRight: '8px', height: '3rem', width: '3rem'}} alt="Meteor" src={Meteor} /><b>Meteor fall</b> from the sky at random locations. If touches the bottom, the player loses a life. Once a player reaches 0 life, Game Over.</h6>
+        <h6><Card.Img className='float-left' style={{marginRight: '8px', height: '3rem', width: '3rem'}} alt="Meteor" src={Meteor} /><b>Meteor</b> fall from the sky at random. If touches the bottom, the player loses a life. If player reaches 0 life, Game Over.</h6>
         <br></br>
-        <h6><Card.Img className='float-left' style={{marginRight: '8px', height: '3rem', width: '3rem'}} alt="HeartandDog" src={HeartandDog} /><b>Hearts</b> drop from the sky must touch ship for bonus life. <b>Space Dog</b> changes unlimited fire.</h6>
+        <h6><Card.Img className='float-left' style={{marginRight: '8px', height: '3rem', width: '3rem'}} alt="HeartandDog" src={HeartandDog} /><b>Hearts</b> drop from the sky and must touch rocket for bonus life. <b>Space Dog</b> changes to unlimited lasers.</h6>
         <br></br>
         <h6><Card.Img className='float-left' style={{marginRight: '8px', height: '3rem', width: '3rem'}} alt="FinalBoss" src={FinalBoss} /><b>Final Boss</b> takes a hundred hits to delete.</h6>
       </Card.Body>
