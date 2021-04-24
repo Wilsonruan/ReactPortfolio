@@ -49,8 +49,8 @@
     "technologies": "Bootstrap, jQuery, API",
     "description": "Flight Search allows users to search for one-way or two-way flights.",
     "image": "/static/media/Flight-Search.364afaa7.png",
-    "github": "https://wilsonruan.github.io/Flight-Search",
-    "website": "https://github.com/Wilsonruan/Flight-Search",
+    "github": "https://github.com/Wilsonruan/Flight-Search",
+    "website": "https://wilsonruan.github.io/Flight-Search",
     "rotate": "rotate(-7deg)"
   }
 ]
