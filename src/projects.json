@@ -38,7 +38,7 @@
   {
     "name": "Budget Tracker",
     "technologies": "MongoDB, Express.js, Node.js",
-    "description": "Budget Tracker allows users to input debit or credit. The total balance will be shown on top.",
+    "description": "Allows users to input debit or credit. The total balance will be shown on top.",
     "image": "/static/media/Budget-Trackers.c971c874.jpg",
     "github": "https://github.com/Wilsonruan/Budget-Trackers",
     "website": "https://powerful-escarpment-11883.herokuapp.com/",
@@ -52,5 +52,33 @@
     "github": "https://github.com/Wilsonruan/Flight-Search",
     "website": "https://wilsonruan.github.io/Flight-Search",
     "rotate": "rotate(-7deg)"
+  },
+  {
+    "name": "Employee Directory",
+    "technologies": "React.JS, Node, Material UI",
+    "description": "Employee Directory can search for employee names by alphabetical or numerical",
+    "image": "/static/media/Employee-Directory.3f42de88.jpg",
+    "github": "https://github.com/Wilsonruan/Employee-Directory",
+    "website": "https://wilsonruan.github.io/Employee-Directory/",
+    "rotate": "rotate(7deg)"
+  },
+  {
+    "name": "Day Planner",
+    "technologies": "HTML, Javascript, Web Storage API",
+    "description": "Users can add, remove, and save notes into this website.",
+    "image": "/static/media/Day-Planner.59b2983a.jpg",
+    "github": "https://github.com/Wilsonruan/5-Day-Planner",
+    "website": "https://wilsonruan.github.io/5-Day-Planner",
+    "rotate": "rotate(-7deg)"
+  },
+  {
+    "name": "Password Generator",
+    "technologies": "HTML, Javascript, CSS",
+    "description": "A simple password generator with Special, Numeric, Lowercase, and Uppercase Characters.",
+    "image": "/static/media/Password-Generator.6d7a2025.jpg",
+    "github": "https://github.com/Wilsonruan/3-Password-Generator",
+    "website": "https://wilsonruan.github.io/3-Password-Generator",
+    "rotate": "rotate(7deg)"
   }
+
 ]
