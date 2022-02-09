@@ -11,6 +11,7 @@ import CodeQuiz from "../images/Code-Quiz.jpg"
 import ShopSmart from "../images/ShopSmart.jpg"
 import FlightSearch from "../images/Flight-Search.png"
 import NoteTaker from "../images/Note-Taker.jpg"
+import Books from "../images/Google-Books.jpg"
 import Scratch from "../components/Scratch/scratch"
 import Instructions from "../components/Instructions/instructions"
 

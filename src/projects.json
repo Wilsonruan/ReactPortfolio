@@ -1,11 +1,11 @@
 [
   {
-    "name": "ShopSmart",
-    "technologies": "MongoDB, Express, React, Node",
-    "description": "View and add products into cart. Users can register, sign in and sign out.",
-    "image": "/static/media/ShopSmart.6fe10698.jpg",
-    "github": "https://github.com/Wilsonruan/ShopSmart2.0",
-    "website": "https://my-shopsmart-app.herokuapp.com/",
+    "name": "Google Search Book",
+    "technologies": "React.JS, MongoDB, REST",
+    "description": "Search and view books from Google Books API",
+    "image": "/static/media/Google-Books.8c141f64.jpg",
+    "github": "https://github.com/Wilsonruan/GoogleBooks",
+    "website": "https://books-wilson.herokuapp.com/",
     "rotate": "rotate(7deg)"
   },
   {
