@@ -1,11 +1,11 @@
 [
   {
-    "name": "Google Search Book",
-    "technologies": "React.JS, MongoDB, REST",
-    "description": "Search and view books from Google Books API",
-    "image": "/static/media/Google-Books.8c141f64.jpg",
-    "github": "https://github.com/Wilsonruan/GoogleBooks",
-    "website": "https://books-wilson.herokuapp.com/",
+    "name": "Employee Directory",
+    "technologies": "React.JS, Node, Material UI",
+    "description": "Employee Directory can search for employee names by alphabetical or numerical",
+    "image": "/static/media/Employee-Directory.3f42de88.jpg",
+    "github": "https://github.com/Wilsonruan/Employee-Directory",
+    "website": "https://wilsonruan.github.io/Employee-Directory/",
     "rotate": "rotate(7deg)"
   },
   {
@@ -54,12 +54,12 @@
     "rotate": "rotate(-7deg)"
   },
   {
-    "name": "Employee Directory",
-    "technologies": "React.JS, Node, Material UI",
-    "description": "Employee Directory can search for employee names by alphabetical or numerical",
-    "image": "/static/media/Employee-Directory.3f42de88.jpg",
-    "github": "https://github.com/Wilsonruan/Employee-Directory",
-    "website": "https://wilsonruan.github.io/Employee-Directory/",
+    "name": "Weather Report",
+    "technologies": "HTML, CSS, JavaScript, API",
+    "description": "Allows users to input city name and get weather report.",
+    "image": "/static/media/Weather-Dashboard.d70c1712.jpg",
+    "github": "https://github.com/Wilsonruan/6-Weather-Dashboard ",
+    "website": "https://wilsonruan.github.io/6-Weather-Dashboard",
     "rotate": "rotate(7deg)"
   },
   {
