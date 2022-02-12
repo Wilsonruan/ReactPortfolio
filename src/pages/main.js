@@ -5,9 +5,9 @@ import Home from "./home"
 
 const Main = () => (
   <Switch>
-    <Route exact path="/" component={Home} />
-    <Route path="/aboutme" component={AboutMe} />
-    <Route path="/portfolio" component={Portfolio} />
+    <Route exact path="/ReactPortfolio/" component={Home} />
+    <Route path="/ReactPortfolio/aboutme/" component={AboutMe} />
+    <Route path="/ReactPortfolio/portfolio/" component={Portfolio} />
   </Switch>
 )
 
