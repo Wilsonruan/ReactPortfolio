@@ -3,7 +3,7 @@
     "name": "Employee Directory",
     "technologies": "React.JS, Node, Material UI",
     "description": "Employee Directory can search for employee names by alphabetical or numerical",
-    "image": "/ReactPortfolio/static/media/Employee-Directory.3f42de88.jpg",
+    "image": "/static/media/Employee-Directory.3f42de88.jpg",
     "github": "https://github.com/Wilsonruan/Employee-Directory",
     "website": "https://wilsonruan.github.io/Employee-Directory/",
     "rotate": "rotate(7deg)"
@@ -12,7 +12,7 @@
     "name": "Portfolio Website",
     "technologies": "React.JS, Node, Material UI",
     "description": "Review my current projects, my autobiography, and contact information.",
-    "image": "/ReactPortfolio/static/media/Portfolio.31afe885.jpg",
+    "image": "/static/media/Portfolio.31afe885.jpg",
     "github": "https://github.com/Wilsonruan/ReactPortfolio",
     "website": "https://wilsonruan.github.io/ReactPortfolio/",
     "rotate": "rotate(-7deg)"
@@ -21,7 +21,7 @@
     "name": "Code Quiz",
     "technologies": "Javascript, jQuery, HTML",
     "description": "Code Quiz offer 4 different coding quizzes.",
-    "image": "/ReactPortfolio/static/media/Code-Quiz.858c2088.jpg",
+    "image": "/static/media/Code-Quiz.858c2088.jpg",
     "github": "https://github.com/Wilsonruan/4-Code-Quiz",
     "website": "https://wilsonruan.github.io/4-Code-Quiz",
     "rotate": "rotate(7deg)"
@@ -30,7 +30,7 @@
     "name": "Note Taker",
     "technologies": "Express, JavaScript, HTML",
     "description": "Note Taker allows users to input notes and delete it.",
-    "image": "/ReactPortfolio/static/media/Note-Taker.caab9183.jpg",
+    "image": "/static/media/Note-Taker.caab9183.jpg",
     "github": "https://github.com/Wilsonruan/Note-Taker",
     "website": "https://note-taker-heroku-wilson.herokuapp.com/",
     "rotate": "rotate(-7deg)"
@@ -39,7 +39,7 @@
     "name": "Budget Tracker",
     "technologies": "MongoDB, Express.js, Node.js",
     "description": "Allows users to input debit or credit. The total balance will be shown on top.",
-    "image": "/ReactPortfolio/static/media/Budget-Trackers.c971c874.jpg",
+    "image": "/static/media/Budget-Trackers.c971c874.jpg",
     "github": "https://github.com/Wilsonruan/Budget-Trackers",
     "website": "https://powerful-escarpment-11883.herokuapp.com/",
     "rotate": "rotate(7deg)"
@@ -48,7 +48,7 @@
     "name": "Flight Search",
     "technologies": "Bootstrap, jQuery, API",
     "description": "Flight Search allows users to search for one-way or two-way flights.",
-    "image": "/ReactPortfolio/static/media/Flight-Search.364afaa7.png",
+    "image": "/static/media/Flight-Search.364afaa7.png",
     "github": "https://github.com/Wilsonruan/Flight-Search",
     "website": "https://wilsonruan.github.io/Flight-Search",
     "rotate": "rotate(-7deg)"
@@ -57,7 +57,7 @@
     "name": "Weather Report",
     "technologies": "HTML, CSS, JavaScript, API",
     "description": "Allows users to input city name and get weather report.",
-    "image": "/ReactPortfolio/static/media/Weather-Dashboard.d70c1712.jpg",
+    "image": "/static/media/Weather-Dashboard.d70c1712.jpg",
     "github": "https://github.com/Wilsonruan/6-Weather-Dashboard ",
     "website": "https://wilsonruan.github.io/6-Weather-Dashboard",
     "rotate": "rotate(7deg)"
@@ -66,7 +66,7 @@
     "name": "Day Planner",
     "technologies": "HTML, Javascript, Web Storage API",
     "description": "Users can add, remove, and save notes into this website.",
-    "image": "/ReactPortfolio/static/media/Day-Planner.59b2983a.jpg",
+    "image": "/static/media/Day-Planner.59b2983a.jpg",
     "github": "https://github.com/Wilsonruan/5-Day-Planner",
     "website": "https://wilsonruan.github.io/5-Day-Planner",
     "rotate": "rotate(-7deg)"
@@ -75,7 +75,7 @@
     "name": "Password Generator",
     "technologies": "HTML, Javascript, CSS",
     "description": "A simple password generator with Special, Numeric, Lowercase, and Uppercase Characters.",
-    "image": "/ReactPortfolio/static/media/Password-Generator.6d7a2025.jpg",
+    "image": "/static/media/Password-Generator.6d7a2025.jpg",
     "github": "https://github.com/Wilsonruan/3-Password-Generator",
     "website": "https://wilsonruan.github.io/3-Password-Generator",
     "rotate": "rotate(7deg)"
