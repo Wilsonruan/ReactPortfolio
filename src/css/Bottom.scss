@@ -1,0 +1,66 @@
+  .bottom-container {
+    background-color: #88c2b8;
+    border-radius: 0 0 25px 25px;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+  }
+  
+  .next-arrow,
+  .prev-arrow {
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background: no-repeat 50%/100% 100%;
+    border-radius: 30px;
+    z-index: 1;
+    border: 3px solid #88c2b8;
+    background-position: center;
+
+    &:hover,
+    &:focus {
+      box-shadow: 0 0 0 3px #5d124a;
+      outline: none;
+    }
+  }
+
+  .next-arrow {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 50 50'%3e%3ctitle%3eCarouselArrowRight%3c/title%3e%3ccircle cx='25' cy='25' r='25' fill='%23fff' opacity='0.7'/%3e%3cpolygon points='36.179 19.932 36.152 19.952 21.59 9.472 21.59 18.733 10.34 18.733 10.34 24.987 10.34 31.471 21.59 31.471 21.59 40.52 36.152 29.955 43.229 24.987 36.179 19.932' fill='%237d1863'/%3e%3cpolygon points='43.229 24.987 36.179 19.932 36.152 19.952 21.59 9.472 21.59 18.733 10.34 18.733 10.34 24.987 43.229 24.987' fill='%23a11f7f'/%3e%3cpolygon points='36.179 19.941 36.152 19.96 21.59 9.48 21.59 18.742 10.34 18.742 10.34 24.996 10.34 31.48 21.59 31.48 21.59 40.528 36.152 29.963 43.229 24.996 36.179 19.941' fill='none' stroke='%23fff' stroke-miterlimit='10' stroke-width='1.8'/%3e%3c/svg%3e");
+  }
+
+  .prev-arrow {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 50 50'%3e%3ctitle%3eCarouselArrowLeft%3c/title%3e%3ccircle cx='25' cy='25' r='25' fill='%23fff' opacity='0.7'/%3e%3cpolygon points='28.41 18.733 28.41 9.472 13.848 19.952 13.821 19.932 6.771 24.987 13.848 29.955 28.41 40.52 28.41 31.471 39.66 31.471 39.66 24.987 39.66 18.733 28.41 18.733' fill='%237d1863'/%3e%3cpolygon points='6.771 24.987 13.821 19.932 13.848 19.952 28.41 9.472 28.41 18.733 39.66 18.733 39.66 24.987 6.771 24.987' fill='%23a11f7f'/%3e%3cpolygon points='13.821 19.941 13.848 19.96 28.41 9.48 28.41 18.742 39.66 18.742 39.66 24.996 39.66 31.48 28.41 31.48 28.41 40.528 13.848 29.963 6.771 24.996 13.821 19.941' fill='none' stroke='%23fff' stroke-miterlimit='10' stroke-width='1.8'/%3e%3c/svg%3e");
+  }
+
+  .rand-arrow {
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+    height: auto;
+    font-size: 1.2rem;
+    background-color: #7d1863;
+    color: white;
+    border: 1px solid transparent;
+    z-index: 1;
+    width: 145px;
+    margin-top: 2px;
+    border: 3px solid #88c2b8;
+
+    &:hover, &:focus {
+      box-shadow: 0 0 0 3px #5d124a;
+      outline: none;
+      background-color: #5d124a;
+    }
+
+    div::before {
+      content: "";
+      top: 5px;
+      display: inline-block;
+      position: relative;
+      height: 25px;
+      width: 25px;
+      background: no-repeat 50%/100% 100%;
+      background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMy41MDgiIGhlaWdodD0iMjYuMjMzIiB2aWV3Qm94PSIwIDAgMzMuNTA4IDI2LjIzMyI+PHBvbHlnb24gcG9pbnRzPSIzMS4wNjEgMy42NDYgMzEuMDUxIDMuNjUzIDI1Ljk5NiAwIDI1Ljk5IDMuMjIgMjUuOTgxIDcuNjQ4IDI1Ljk3NSAxMC43OTQgMzEuMDQ1IDcuMTMgMzMuNTA4IDUuNDA4IDMxLjA2MSAzLjY0NiIgZmlsbD0iI2ZmZiIvPjxwb2x5Z29uIHBvaW50cz0iMzEuMDYxIDIyLjU4NyAzMS4wNTEgMjIuNTggMjUuOTk2IDI2LjIzMyAyNS45OSAyMy4wMTMgMjUuOTgxIDE4LjU4NSAyNS45NzUgMTUuNDM5IDMxLjA0NSAxOS4xMDMgMzMuNTA4IDIwLjgyNSAzMS4wNjEgMjIuNTg3IiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTE3LjU4LDYuMTQ5LDYuOTM1LDE3Ljk5MmE0LjIxMSw0LjIxMSwwLDAsMS0zLjExNywxLjM5MkwwLDE5LjQxN2wuMDMzLDMuNiwzLjgwNy0uMDM0QTcuOCw3LjgsMCwwLDAsOS42MTEsMjAuNEwyMC4yNTUsOC41NTVhNC4yLDQuMiwwLDAsMSwzLjExLTEuMzkzbDMuODItLjAzNC0uMDE5LTMuNi0zLjgxNi4wMzRBNy44LDcuOCwwLDAsMCwxNy41OCw2LjE0OVoiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJNNi45MzYsOC4yNDFsMy4zNzMsMy43NTNMMTIuNzI3LDkuMyw5LjYxMiw1LjgzN0E3LjgwNSw3LjgwNSwwLDAsMCwzLjg1LDMuMjUyTC4wMzIsMy4yMTksMCw2LjgxNmwzLjgyNy4wMzNBNC4yMSw0LjIxLDAsMCwxLDYuOTM2LDguMjQxWiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Ik0yMy4zNjMsMTkuMDcxYTQuMjExLDQuMjExLDAsMCwxLTMuMTA4LTEuMzkxbC0zLjA5Mi0zLjQ0MS0yLjQxOSwyLjY5LDIuODM1LDMuMTU1YTcuODA4LDcuODA4LDAsMCwwLDUuNzY4LDIuNTg1bDYuMjE3LjAzMy4wMTktMy42WiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==");
+    }
+  }

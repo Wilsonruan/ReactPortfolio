@@ -1,0 +1,30 @@
+{
+    "instruction": "Intro text. What is the natural habitat of these animals? Click the card to reveal the answer.",
+    "items": [
+        {
+            "img": ["/flashcards-react/static/media/sshi5_07.202a.82c3b067ce3ab697ae648dec77ceb35d.svg", "no alt"],
+            "text": "Question 1",
+            "answer": "Answer 1"
+        },
+        {
+            "img": ["/flashcards-react/static/media/sshi5_07.202b.d2dafd7345b075bc2f356e6bd341ca2d.svg", "no alt"],
+            "text": "Question 2",
+            "answer": "Answer 2"
+        },
+        {
+            "img": ["/flashcards-react/static/media/sshi5_07.202c.44119989cece1fb38adad7219cf2ae6c.svg", "no alt"],
+            "text": "Question 3",
+            "answer": "Answer 3"
+        },
+        {
+            "img": ["/flashcards-react/static/media/sshi5_07.202d.a7b0793e69f9f0d4a7a1.jpg", "no alt"],
+            "text": "Question 4",
+            "answer": "Answer 4"
+        },
+        {
+            "img": ["/flashcards-react/static/media/sshi5_07.202e.016f3148fadb9d57b6ab.jpg", "no alt"],
+            "text": "Question 5",
+            "answer": "Answer 5"
+        }
+    ]
+}
