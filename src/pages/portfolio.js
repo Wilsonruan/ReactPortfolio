@@ -13,6 +13,8 @@ import ShopSmart from "../images/ShopSmart.jpg"
 import FlightSearch from "../images/Flight-Search.png"
 import NoteTaker from "../images/Note-Taker.jpg"
 import Books from "../images/Google-Books.jpg"
+import FlashCard from "../images/Flash-Card-React.png"
+import Post from "../images/vue-post.jpg"
 import Scratch from "../components/Scratch/scratch"
 import Instructions from "../components/Instructions/instructions"
 
@@ -21,8 +23,8 @@ class projects extends Component {
     project
 }
   render() {
-    if (Budget && Employee && Password && Weather && Weathers && Portfolio && CodeQuiz && ShopSmart && FlightSearch && NoteTaker && Books) {
-      console.log(Weathers)
+    if (Budget && Employee && Password && Weather && Weathers && Portfolio && CodeQuiz && ShopSmart && FlightSearch && NoteTaker && Books && FlashCard && Post) {
+      console.log(Post)
     }
     return (
       <Container style={{ background: "white", display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap', marginTop: "100px", marginBottom: "100px", paddingTop: "50px", boxShadow: '5px 10px 18px #888888' }}>
